@@ -36,32 +36,34 @@ int main ()
 
 
 
-//REALIZADO: BRAYAN ALEXIS ROJAS MILA 
-//26/09/2020 
-//02_LEDS 
-
+//REALIZADO: Brayan Alexis Rojas Mila
+//26/09/2020
+//02_LEDS
 #include <stdio.h>
-//FORMULA1: I = V/R //FORMILA2: R = V / I
 
-int main (){ 
-float V,R1,R2,R3;
+//FORMULA1: I = V/R
+//FORMILA2: R = V / I
 
+int main ()
+{
+    float V,R1,R2,R3;
 
-printf("DAME EL VALOR DEL VOLTAJE: ");
-scanf("%f",&V);
+    printf("DAME EL VALOR DEL VOLTAJE: ");
+    scanf("%f",&V);
 
-R1=V/0.02;
-R2=V/0.015;
-R3=V/0.02;
+    R1=V/0.02;
+    R2=V/0.015;
+    R3=V/0.02;
 
-printf("EL RESULTADO DE LA RESISTENCIA ROJO BRILLANTE ES %f \n", R1);
+    printf("EL RESULTADO DE LA RESISTENCIA ROJO BRILLANTE ES %f \n", R1);
 
-printf("EL RESULTADO DE LA RESISTENCIA AMARRILLO STD ES %f \n", R2);
+    printf("EL RESULTADO DE LA RESISTENCIA AMARRILLO STD ES %f \n", R2);
 
-printf("EL RESULTADO DE LA RESISTENCIA BLANCO ES %f \n", R3);
+    printf("EL RESULTADO DE LA RESISTENCIA BLANCO ES %f \n", R3);
 
-return 0;
+    return 0;
 }
+
 
 
 
