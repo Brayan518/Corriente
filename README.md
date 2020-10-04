@@ -43,10 +43,9 @@ int main ()
 #include <stdio.h>
 //FORMULA1: I = V/R //FORMILA2: R = V / I
 
-int main ()
-
-{ 
+int main (){ 
 float V,R1,R2,R3;
+
 
 printf("DAME EL VALOR DEL VOLTAJE: ");
 scanf("%f",&V);
